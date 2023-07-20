@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="module">
+    import init, {wasm_app, WasmRequest} from './dist/example.js';
+
+    (async function () {
+        await init();
+
+        const wasmRequest = new WasmRequest("GET", "/", {}, undefined);
+        let response = await wasm_app(wasmRequest);
+
+        document.write(response.body)
+    }())
+</script>
+</body>
+</html>
