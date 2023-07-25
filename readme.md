@@ -1,6 +1,6 @@
 # axum-browser-adapter
 
-[![Crates.io](https://img.shields.io/crates/v/axum-browser-adapter)](https://crates.io/crates/axum-browser-adapter) ![npm](https://img.shields.io/npm/v/axum-browser-adapter)
+[![Crates.io](https://img.shields.io/crates/v/axum-browser-adapter)](https://crates.io/crates/axum-browser-adapter) [![npm](https://img.shields.io/npm/v/axum-browser-adapter)](https://www.npmjs.com/package/axum-browser-adapter)
 
 A collection of tools to make integrating Axum with the browser easier
 
