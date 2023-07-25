@@ -128,6 +128,10 @@ impl WasmRequest {
 
         WasmRequest { method, url, headers, body }
     }
+
+    pub fn append_header(&mut self, key: String, value: String) {
+        self.headers.insert(key, value);
+    }
 }
 
 pub fn wasm_request_to_axum_request(wasm_request: &WasmRequest) -> Result<Request<Body>, Box<dyn std::error::Error>> {
