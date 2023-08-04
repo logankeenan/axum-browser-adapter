@@ -4,6 +4,8 @@
 
 A collection of tools to make integrating Axum with the browser easier
 
+[Client-Side Server with Rust: A New Approach to UI Development](https://logankeenan.com/posts/client-side-server-with-rust-a-new-approach-to-ui-development/)
+
 [Documentation](https://docs.rs/axum-browser-adapter/latest/axum_browser_adapter/)
 
 ## Example
